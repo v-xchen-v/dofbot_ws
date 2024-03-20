@@ -29,3 +29,6 @@ Controller of dofbot in sim and realworld
 roslaunch dofbot_digital display.launch
 ```
 If using WSL, you may run command `export LIBGL_ALWAYS_SOFTWARE=true` to fix the problem of model mesh now showing problem.
+
+## Issue
+the official urdf not container gribber, may try export from Isaac Sim usd.
