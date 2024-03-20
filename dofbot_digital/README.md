@@ -23,3 +23,9 @@ Controller of dofbot in sim and realworld
 - /urdf/dotbot.urdf - This is your robot description file, also used by Rviz, MoveIt!, etc
 
 - /meshes - put your .stl or .dae files in here, just as you would with regular URDFs.
+
+## Write/Use a launch file to display robot model on Rviz
+```
+roslaunch dofbot_digital display.launch
+```
+If using WSL, you may run command `export LIBGL_ALWAYS_SOFTWARE=true` to fix the problem of model mesh now showing problem.
