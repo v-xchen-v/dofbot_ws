@@ -100,7 +100,7 @@ find_package(catkin REQUIRED)
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
 #  INCLUDE_DIRS include
-#  LIBRARIES dofbot_digital
+#  LIBRARIES dofbot_with_grip_digital
 #  CATKIN_DEPENDS other_catkin_pkg
 #  DEPENDS system_lib
 )
@@ -118,7 +118,7 @@ include_directories(
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
-#   src/${PROJECT_NAME}/dofbot_digital.cpp
+#   src/${PROJECT_NAME}/dofbot_with_grip_digital.cpp
 # )
 
 ## Add cmake target dependencies of the library
@@ -129,7 +129,7 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-# add_executable(${PROJECT_NAME}_node src/dofbot_digital_node.cpp)
+# add_executable(${PROJECT_NAME}_node src/dofbot_with_grip_digital_node.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -193,7 +193,7 @@ include_directories(
 #############
 
 ## Add gtest based cpp test target and link libraries
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_dofbot_digital.cpp)
+# catkin_add_gtest(${PROJECT_NAME}-test test/test_dofbot_with_grip_digital.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()

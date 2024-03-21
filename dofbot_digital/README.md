@@ -1,7 +1,9 @@
 # dofbot_controller
 Controller of dofbot in sim and realworld
 
-## The hierarchy is specially adapted for use as a Gazebo model database by means of the following folders/files:
+## Import URDF and Visualize the Robot
+
+### The hierarchy is specially adapted for use as a Gazebo model database by means of the following folders/files:
 ```
 ../catkin_ws/src
     /MYROBOT_description
@@ -24,11 +26,8 @@ Controller of dofbot in sim and realworld
 
 - /meshes - put your .stl or .dae files in here, just as you would with regular URDFs.
 
-## Write/Use a launch file to display robot model on Rviz
+### Write/Use a launch file to display robot model on Rviz
 ```
 roslaunch dofbot_digital display.launch
 ```
 If using WSL, you may run command `export LIBGL_ALWAYS_SOFTWARE=true` to fix the problem of model mesh now showing problem.
-
-## Issue
-the official urdf not container gribber, may try export from Isaac Sim usd.
